@@ -1,0 +1,89 @@
+Source: qtsvg-opensource-src
+Section: libs
+Priority: extra
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: debhelper (>= 8.1.3),
+               qtbase5-dev,
+               qtbase5-private-dev,
+               libqt5opengl5-dev,
+               zlib1g-dev,
+               pkg-kde-tools,
+Standards-Version: 3.9.2
+Homepage: http://qt.nokia.com/
+
+Package: libqt5svg5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 SVG module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtSvg module provides classes for displaying the contents of SVG files.
+ .
+ Scalable Vector Graphics (SVG) is a language for describing two-dimensional
+ graphics and graphical applications in XML.
+
+Package: libqt5svg5-dev
+Architecture: any
+Section: libdevel
+Multi-Arch: same
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 SVG module development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtSvg module provides classes for displaying the contents of SVG files.
+ .
+ Scalable Vector Graphics (SVG) is a language for describing two-dimensional
+ graphics and graphical applications in XML.
+ .
+ This package contains the header development files used for building Qt 5
+ applications using QtSvg library.
+
+Package: libqt5svg5-private-dev
+Architecture: any
+Section: libdevel
+Multi-Arch: same
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 SVG module development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The QtSvg module provides classes for displaying the contents of SVG files.
+ .
+ Scalable Vector Graphics (SVG) is a language for describing two-dimensional
+ graphics and graphical applications in XML.
+ .
+ This package contains the private header development files for building some
+ Qt 5 applications using SVG private headers.
+ .
+ Use at your own risk.
+
+Package: qtsvg5-examples
+Architecture: any
+Section: x11
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 XML patterns examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 5 SVG examples.
+
+Package: qtsvg5-dbg
+Priority: extra
+Architecture: any
+Section: debug
+Depends: libqt5svg5 (= ${binary:Version}),
+         qtsvg5-examples (= ${binary:Version}),
+         ${misc:Depends}
+Description: Qt 5 SVG library debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 SVG 
+ libraries.
