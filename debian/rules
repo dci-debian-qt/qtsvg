@@ -8,16 +8,10 @@ export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildfla
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 
 %:
-	dh $@ --fail-missing --parallel --with pkgkde_symbolshelper --dbg-package=qtsvg5-dbg
+	dh $@ --list-missing --parallel --with pkgkde_symbolshelper --dbg-package=qtsvg5-dbg
 
 override_dh_auto_configure:
 	qmake 
-
-override_dh_auto_install:
-	make install INSTALL_ROOT=$(CURDIR)/debian/tmp
-	
-	# Remove la files (http://wiki.debian.org/ReleaseGoals/LAFileRemoval)
-	rm -f debian/tmp/usr/lib/*/libQt5Svg.la
 
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
