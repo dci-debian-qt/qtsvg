@@ -31,7 +31,7 @@ Description: Qt 5 SVG module
 Package: libqt5svg5-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5svg5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 SVG module development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -48,7 +48,7 @@ Description: Qt 5 SVG module development files
 Package: libqt5svg5-private-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 SVG module development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -68,7 +68,7 @@ Package: qtsvg5-examples
 Architecture: any
 Section: x11
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 SVG examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
