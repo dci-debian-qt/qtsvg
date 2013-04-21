@@ -81,8 +81,8 @@ Priority: extra
 Architecture: any
 Section: debug
 Depends: libqt5svg5 (= ${binary:Version}),
-         qtsvg5-examples (= ${binary:Version}),
          ${misc:Depends}
+Suggests: qtsvg5-examples (= ${binary:Version}),
 Description: Qt 5 SVG library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
