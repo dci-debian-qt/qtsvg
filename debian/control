@@ -55,7 +55,7 @@ Package: libqt5svg5-private-dev
 Architecture: any
 Section: libdevel
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libqt5svg5-dev (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 SVG module private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
