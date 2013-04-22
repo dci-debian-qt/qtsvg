@@ -29,28 +29,6 @@ Copyright: 2012 Digia Plc and/or its subsidiary(-ies).
            2007 Ariya Hidayat
 License: BSD-3-clause
 
-Files: examples/svg/embedded/fluidlauncher/fluidlauncher.h
-       examples/svg/embedded/fluidlauncher/slideshow.cpp
-       examples/svg/embedded/fluidlauncher/demoapplication.h
-       examples/svg/embedded/fluidlauncher/fluidlauncher.cpp
-       examples/svg/embedded/fluidlauncher/demoapplication.cpp
-       examples/svg/embedded/fluidlauncher/slideshow.h
-       examples/svg/embedded/fluidlauncher/main.cpp
-       examples/svg/embedded/weatherinfo/weatherinfo.cpp
-       examples/svg/embedded/desktopservices/linktab.h
-       examples/svg/embedded/desktopservices/linktab.cpp
-       examples/svg/embedded/desktopservices/contenttab.cpp
-       examples/svg/embedded/desktopservices/contenttab.h
-       examples/svg/embedded/desktopservices/desktopwidget.h
-       examples/svg/embedded/desktopservices/desktopwidget.cpp
-       examples/svg/embedded/desktopservices/main.cpp
-       examples/svg/embeddedsvgviewer/embeddedsvgviewer.h
-       examples/svg/embeddedsvgviewer/embeddedsvgviewer.cpp
-       examples/svg/embeddedsvgviewer/main.cpp
-Copyright: 2012 Digia Plc and/or its subsidiary(-ies).
-License: LGPL-2.1 with Digia Qt LGPL exception or GPL-3
-
-
 License: GFDL-NIV-1.3
  GNU Free Documentation License Usage
  Alternatively, this file may be used under the terms of the GNU Free
