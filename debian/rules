@@ -26,6 +26,12 @@ override_dh_auto_install:
 	-name '*.svg' \
 	\) -print0 | xargs -0 chmod 660
 
+	# Remove libtool-like files
+	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
+
+override_dh_install:
+	dh_install --fail-missing
+
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
 	
