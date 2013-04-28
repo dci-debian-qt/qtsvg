@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 ia64 powerpc
+# SymbolsHelper-Confirmed: 5.0.2 alpha amd64 ia64 powerpc ppc64
 libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN10QSvgWidget10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN10QSvgWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
