@@ -97,3 +97,26 @@ Description: Qt 5 SVG library debugging symbols
  .
  This package contains the debugging symbols for the Qt 5 SVG 
  libraries.
+
+Package: qtsvg5-doc
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 SVG documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 SVG libraries.
+
+Package: qtsvg5-doc-html
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 SVG HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 SVG
+ libraries.
