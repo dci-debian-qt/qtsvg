@@ -1,6 +1,5 @@
-qtsvg-opensource-src (5.0.2-3) UNRELEASED; urgency=low
+qtsvg-opensource-src (5.0.2-3) experimental; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Build the documentation shipped with this submodule as a build-indep task:
     - Add the necessary indep build dependencies:
       * qttools5-dev-tools to use qhelpgenerator.
@@ -9,7 +8,7 @@ qtsvg-opensource-src (5.0.2-3) UNRELEASED; urgency=low
   * Update symbols file.
   * Make qtsvg5-dbg M-A same to allow coinstalability.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Jun 2013 14:31:17 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 20 Jun 2013 19:23:06 -0300
 
 qtsvg-opensource-src (5.0.2-2) experimental; urgency=low
 
