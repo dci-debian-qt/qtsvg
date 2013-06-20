@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 alpha amd64 ia64 powerpc ppc64
+# SymbolsHelper-Confirmed: 5.0.2 alpha amd64 armhf ia64 powerpc ppc64 s390 s390x
 libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN10QSvgWidget10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN10QSvgWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -93,10 +93,10 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN4QCss10StyleSheetC2ERKS0_@Base 5.0.2
  _ZN4QCss10StyleSheetD1Ev@Base 5.0.2
  _ZN4QCss10StyleSheetD2Ev@Base 5.0.2
- (optional=gccinternal)_ZN4QCss11Declaration15DeclarationDataD1Ev@Base 5.0.2
- (optional=gccinternal)_ZN4QCss11Declaration15DeclarationDataD2Ev@Base 5.0.2
- (optional=gccinternal)_ZN4QCss6ParserD1Ev@Base 5.0.2
- (optional=gccinternal)_ZN4QCss6ParserD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=amd64)_ZN4QCss11Declaration15DeclarationDataD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=amd64)_ZN4QCss11Declaration15DeclarationDataD2Ev@Base 5.0.2
+ (optional=gccinternal|arch=!ia64)_ZN4QCss6ParserD1Ev@Base 5.0.2
+ (optional=gccinternal|arch=!ia64)_ZN4QCss6ParserD2Ev@Base 5.0.2
  _ZNK10QSvgWidget10metaObjectEv@Base 5.0.2
  _ZNK10QSvgWidget8rendererEv@Base 5.0.2
  _ZNK10QSvgWidget8sizeHintEv@Base 5.0.2
