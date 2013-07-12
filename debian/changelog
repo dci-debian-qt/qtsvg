@@ -4,6 +4,7 @@ qtsvg-opensource-src (5.1.0-1) UNRELEASED; urgency=low
   * New upstream release.
   * Fix watch file.
   * Update symbols file.
+  * Bump Qt build dependencies to 5.1.0~.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Jul 2013 22:05:43 -0300
 
