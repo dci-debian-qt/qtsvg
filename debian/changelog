@@ -1,3 +1,7 @@
+qtsvg-opensource-src (5.0.2-4) UNRELEASED; urgency=low
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Jul 2013 22:05:43 -0300
+
 qtsvg-opensource-src (5.0.2-3) experimental; urgency=low
 
   * Build the documentation shipped with this submodule as a build-indep task:
