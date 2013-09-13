@@ -12,10 +12,13 @@ export QT_SELECT := qt5
 	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qtsvg5-dbg
 
 override_dh_auto_configure:
-	qmake 
+	qmake QT_BUILD_PARTS+=tests
 
 override_dh_auto_build-indep:
 	dh_auto_build -Smakefile -- docs
+
+override_dh_auto_test:
+	xvfb-run -a make check QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib
 
 override_dh_auto_install-arch:
 	dh_auto_install

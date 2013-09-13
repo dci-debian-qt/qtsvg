@@ -9,7 +9,7 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Felix Geyer <fgeyer@debian.org>,
            Timo Jyrinki <timo@debian.org>
-Build-Depends: debhelper (>= 9),
+Build-Depends: dbus, xvfb, debhelper (>= 9),
                qtbase5-dev (>= 5.1.1+dfsg~),
                qtbase5-private-dev (>= 5.1.1+dfsg~),
                libqt5opengl5-dev (>= 5.1.1+dfsg~),
