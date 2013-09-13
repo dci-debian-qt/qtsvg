@@ -9,14 +9,15 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Felix Geyer <fgeyer@debian.org>,
            Timo Jyrinki <timo@debian.org>
-Build-Depends: dbus, xvfb, debhelper (>= 9),
+Build-Depends: dbus,
+               debhelper (>= 9),
+               libqt5opengl5-dev (>= 5.1.1+dfsg~),
+               pkg-kde-tools,
                qtbase5-dev (>= 5.1.1+dfsg~),
                qtbase5-private-dev (>= 5.1.1+dfsg~),
-               libqt5opengl5-dev (>= 5.1.1+dfsg~),
-               zlib1g-dev,
-               pkg-kde-tools,
-Build-Depends-Indep: libqt5sql5-sqlite,
-                     qttools5-dev-tools (>= 5.1.1~)
+               xvfb,
+               zlib1g-dev
+Build-Depends-Indep: libqt5sql5-sqlite, qttools5-dev-tools (>= 5.1.1~)
 Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtsvg.git
@@ -89,14 +90,13 @@ Priority: extra
 Architecture: any
 Multi-Arch: same
 Section: debug
-Depends: libqt5svg5 (= ${binary:Version}),
-         ${misc:Depends}
-Suggests: qtsvg5-examples (= ${binary:Version}),
+Depends: libqt5svg5 (= ${binary:Version}), ${misc:Depends}
+Suggests: qtsvg5-examples (= ${binary:Version})
 Description: Qt 5 SVG library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the debugging symbols for the Qt 5 SVG 
+ This package contains the debugging symbols for the Qt 5 SVG
  libraries.
 
 Package: qtsvg5-doc
