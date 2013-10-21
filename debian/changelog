@@ -3,6 +3,7 @@ qtsvg-opensource-src (5.2~beta1-1) UNRELEASED; urgency=low
   [ Dmitry Shachnev ]
   * New upstream alpha release.
   * Update qtbase build-dependencies to 5.2.
+  * Include architecture.mk in debian/rules.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 21 Oct 2013 15:04:45 +0400
 
