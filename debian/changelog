@@ -1,11 +1,10 @@
-qtsvg-opensource-src (5.1.1-3) UNRELEASED; urgency=low
+qtsvg-opensource-src (5.1.1-3) unstable; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Enable tests. Thanks Michael Terry from Ubuntu for the patch
    (Closes: 722718).
   * Update symbols file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 Sep 2013 17:18:56 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 24 Oct 2013 20:40:40 -0300
 
 qtsvg-opensource-src (5.1.1-2) unstable; urgency=low
 
