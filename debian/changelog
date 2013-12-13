@@ -7,6 +7,7 @@ qtsvg-opensource-src (5.2.0-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with buildds' logs.
+  * Update install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 21 Oct 2013 15:04:45 +0400
 
