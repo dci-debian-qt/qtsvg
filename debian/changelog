@@ -1,7 +1,7 @@
-qtsvg-opensource-src (5.2.0~beta1-1) UNRELEASED; urgency=low
+qtsvg-opensource-src (5.2.0-1) UNRELEASED; urgency=low
 
   [ Dmitry Shachnev ]
-  * New upstream beta release.
+  * New upstream release.
   * Update qtbase build-dependencies to 5.2.0.
   * Explicitly define DEB_HOST_MULTIARCH in debian/rules.
 
