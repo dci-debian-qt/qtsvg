@@ -6,6 +6,7 @@ qtsvg-opensource-src (5.2.0-2) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Bump qtbase4 build dependency to 5.2.0+dfsg-5, so as to get the fix for
     sparc's FTBFS.
+  * Bump Standards-Version to 3.9.5, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 27 Dec 2013 11:24:01 +0100
 
