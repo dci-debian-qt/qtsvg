@@ -11,15 +11,15 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Timo Jyrinki <timo@debian.org>
 Build-Depends: dbus,
                debhelper (>= 9),
-               libqt5opengl5-dev (>= 5.1.1+dfsg~),
+               libqt5opengl5-dev (>= 5.2.0+dfsg~),
                pkg-kde-tools,
-               qtbase5-dev (>= 5.1.1+dfsg~),
-               qtbase5-private-dev (>= 5.1.1+dfsg~),
+               qtbase5-dev (>= 5.2.0+dfsg-5~),
+               qtbase5-private-dev (>= 5.2.0+dfsg-5~),
                xauth,
                xvfb,
                zlib1g-dev
-Build-Depends-Indep: libqt5sql5-sqlite, qttools5-dev-tools (>= 5.1.1~)
-Standards-Version: 3.9.4
+Build-Depends-Indep: libqt5sql5-sqlite, qttools5-dev-tools (>= 5.2.0-1~)
+Standards-Version: 3.9.5
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtsvg.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtsvg.git;a=summary
