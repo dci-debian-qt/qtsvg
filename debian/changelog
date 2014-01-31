@@ -1,3 +1,8 @@
+qtsvg-opensource-src (5.2.0-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 31 Jan 2014 17:47:02 -0300
+
 qtsvg-opensource-src (5.2.0-2) experimental; urgency=low
 
   [ Pino Toscano ]
