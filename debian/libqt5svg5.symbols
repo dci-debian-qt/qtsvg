@@ -93,8 +93,8 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  (optional=gccinternal|arch=!ia64)_ZN4QCss10StyleSheetC2ERKS0_@Base 5.0.2
  _ZN4QCss10StyleSheetD1Ev@Base 5.0.2
  _ZN4QCss10StyleSheetD2Ev@Base 5.0.2
- (optional=gccinternal|arch=powerpc sparc)_ZN4QCss6ParserD1Ev@Base 5.2.0
- (optional=gccinternal|arch=powerpc sparc)_ZN4QCss6ParserD2Ev@Base 5.2.0
+ (optional=gccinternal|arch=sparc)_ZN4QCss6ParserD1Ev@Base 5.2.0
+ (optional=gccinternal|arch=sparc)_ZN4QCss6ParserD2Ev@Base 5.2.0
  _ZNK10QSvgWidget10metaObjectEv@Base 5.0.2
  _ZNK10QSvgWidget8rendererEv@Base 5.0.2
  _ZNK10QSvgWidget8sizeHintEv@Base 5.0.2
