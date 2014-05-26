@@ -40,6 +40,7 @@ Description: Qt 5 SVG module
 
 Package: libqt5svg5-dev
 Architecture: any
+Multi-Arch: same
 Section: libdevel
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5svg5 (= ${binary:Version}), ${misc:Depends}
@@ -57,6 +58,7 @@ Description: Qt 5 SVG module development files
 
 Package: libqt5svg5-private-dev
 Architecture: any
+Multi-Arch: same
 Section: libdevel
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5svg5-dev (= ${binary:Version}), ${misc:Depends}
