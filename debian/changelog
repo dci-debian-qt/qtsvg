@@ -9,6 +9,7 @@ qtsvg-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
     - Modify symbols file for letting the tracking work.
     - Create mark_private_symbols.sh to mark the private symbols.
     - Run mark_private_symbols.sh after dh_makeshlibs.
+    - Mark private symbols as such.
   * Do not override dh_builddeb anymore, xz compression is now the default
     method.
 

@@ -67,29 +67,29 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN16QGraphicsSvgItemD0Ev@Base 5.0.2
  _ZN16QGraphicsSvgItemD1Ev@Base 5.0.2
  _ZN16QGraphicsSvgItemD2Ev@Base 5.0.2
- _ZN16QSvgTinyDocument10addSvgFontEP8QSvgFont@Base 5.0.2
- _ZN16QSvgTinyDocument10setViewBoxERK6QRectF@Base 5.0.2
- _ZN16QSvgTinyDocument11setAnimatedEb@Base 5.0.2
- _ZN16QSvgTinyDocument12addNamedNodeERK7QStringP8QSvgNode@Base 5.0.2
- _ZN16QSvgTinyDocument13addNamedStyleERK7QStringP21QSvgFillStyleProperty@Base 5.0.2
- _ZN16QSvgTinyDocument15setCurrentFrameEi@Base 5.0.2
- _ZN16QSvgTinyDocument16restartAnimationEv@Base 5.0.2
- _ZN16QSvgTinyDocument17mapSourceToTargetEP8QPainterRK6QRectFS4_@Base 5.0.2
- _ZN16QSvgTinyDocument18setFramesPerSecondEi@Base 5.0.2
- _ZN16QSvgTinyDocument4drawEP8QPainter@Base 5.0.2
- _ZN16QSvgTinyDocument4drawEP8QPainterR15QSvgExtraStates@Base 5.0.2
- _ZN16QSvgTinyDocument4drawEP8QPainterRK6QRectF@Base 5.0.2
- _ZN16QSvgTinyDocument4drawEP8QPainterRK7QStringRK6QRectF@Base 5.0.2
- _ZN16QSvgTinyDocument4loadEP16QXmlStreamReader@Base 5.0.2
- _ZN16QSvgTinyDocument4loadERK10QByteArray@Base 5.0.2
- _ZN16QSvgTinyDocument4loadERK7QString@Base 5.0.2
- _ZN16QSvgTinyDocument8setWidthEib@Base 5.0.2
- _ZN16QSvgTinyDocument9setHeightEib@Base 5.0.2
- _ZN16QSvgTinyDocumentC1Ev@Base 5.0.2
- _ZN16QSvgTinyDocumentC2Ev@Base 5.0.2
- _ZN16QSvgTinyDocumentD0Ev@Base 5.0.2
- _ZN16QSvgTinyDocumentD1Ev@Base 5.0.2
- _ZN16QSvgTinyDocumentD2Ev@Base 5.0.2
+ _ZN16QSvgTinyDocument10addSvgFontEP8QSvgFont@Base 5.0.2 1
+ _ZN16QSvgTinyDocument10setViewBoxERK6QRectF@Base 5.0.2 1
+ _ZN16QSvgTinyDocument11setAnimatedEb@Base 5.0.2 1
+ _ZN16QSvgTinyDocument12addNamedNodeERK7QStringP8QSvgNode@Base 5.0.2 1
+ _ZN16QSvgTinyDocument13addNamedStyleERK7QStringP21QSvgFillStyleProperty@Base 5.0.2 1
+ _ZN16QSvgTinyDocument15setCurrentFrameEi@Base 5.0.2 1
+ _ZN16QSvgTinyDocument16restartAnimationEv@Base 5.0.2 1
+ _ZN16QSvgTinyDocument17mapSourceToTargetEP8QPainterRK6QRectFS4_@Base 5.0.2 1
+ _ZN16QSvgTinyDocument18setFramesPerSecondEi@Base 5.0.2 1
+ _ZN16QSvgTinyDocument4drawEP8QPainter@Base 5.0.2 1
+ _ZN16QSvgTinyDocument4drawEP8QPainterR15QSvgExtraStates@Base 5.0.2 1
+ _ZN16QSvgTinyDocument4drawEP8QPainterRK6QRectF@Base 5.0.2 1
+ _ZN16QSvgTinyDocument4drawEP8QPainterRK7QStringRK6QRectF@Base 5.0.2 1
+ _ZN16QSvgTinyDocument4loadEP16QXmlStreamReader@Base 5.0.2 1
+ _ZN16QSvgTinyDocument4loadERK10QByteArray@Base 5.0.2 1
+ _ZN16QSvgTinyDocument4loadERK7QString@Base 5.0.2 1
+ _ZN16QSvgTinyDocument8setWidthEib@Base 5.0.2 1
+ _ZN16QSvgTinyDocument9setHeightEib@Base 5.0.2 1
+ _ZN16QSvgTinyDocumentC1Ev@Base 5.0.2 1
+ _ZN16QSvgTinyDocumentC2Ev@Base 5.0.2 1
+ _ZN16QSvgTinyDocumentD0Ev@Base 5.0.2 1
+ _ZN16QSvgTinyDocumentD1Ev@Base 5.0.2 1
+ _ZN16QSvgTinyDocumentD2Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!ia64)_ZN4QCss10StyleSheetC1ERKS0_@Base 5.0.2
  (optional=gccinternal|arch=!ia64)_ZN4QCss10StyleSheetC2ERKS0_@Base 5.0.2
  _ZN4QCss10StyleSheetD1Ev@Base 5.0.2
@@ -129,32 +129,32 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZNK16QGraphicsSvgItem4typeEv@Base 5.0.2
  _ZNK16QGraphicsSvgItem8rendererEv@Base 5.0.2
  _ZNK16QGraphicsSvgItem9elementIdEv@Base 5.0.2
- _ZNK16QSvgTinyDocument10namedStyleERK7QString@Base 5.0.2
- _ZNK16QSvgTinyDocument12currentFrameEv@Base 5.0.2
- _ZNK16QSvgTinyDocument13elementExistsERK7QString@Base 5.0.2
- _ZNK16QSvgTinyDocument15boundsOnElementERK7QString@Base 5.0.2
- _ZNK16QSvgTinyDocument16matrixForElementERK7QString@Base 5.0.2
- _ZNK16QSvgTinyDocument4typeEv@Base 5.0.2
- _ZNK16QSvgTinyDocument7svgFontERK7QString@Base 5.0.2
- _ZNK16QSvgTinyDocument8animatedEv@Base 5.0.2
- _ZNK16QSvgTinyDocument9namedNodeERK7QString@Base 5.0.2
+ _ZNK16QSvgTinyDocument10namedStyleERK7QString@Base 5.0.2 1
+ _ZNK16QSvgTinyDocument12currentFrameEv@Base 5.0.2 1
+ _ZNK16QSvgTinyDocument13elementExistsERK7QString@Base 5.0.2 1
+ _ZNK16QSvgTinyDocument15boundsOnElementERK7QString@Base 5.0.2 1
+ _ZNK16QSvgTinyDocument16matrixForElementERK7QString@Base 5.0.2 1
+ _ZNK16QSvgTinyDocument4typeEv@Base 5.0.2 1
+ _ZNK16QSvgTinyDocument7svgFontERK7QString@Base 5.0.2 1
+ _ZNK16QSvgTinyDocument8animatedEv@Base 5.0.2 1
+ _ZNK16QSvgTinyDocument9namedNodeERK7QString@Base 5.0.2 1
  _ZTI10QSvgWidget@Base 5.0.2
  _ZTI12QSvgRenderer@Base 5.0.2
  _ZTI13QSvgGenerator@Base 5.0.2
  _ZTI16QGraphicsSvgItem@Base 5.0.2
- _ZTI16QSvgTinyDocument@Base 5.0.2
+ _ZTI16QSvgTinyDocument@Base 5.0.2 1
  _ZTI19QPaintEnginePrivate@Base 5.0.2
  _ZTS10QSvgWidget@Base 5.0.2
  _ZTS12QSvgRenderer@Base 5.0.2
  _ZTS13QSvgGenerator@Base 5.0.2
  _ZTS16QGraphicsSvgItem@Base 5.0.2
- _ZTS16QSvgTinyDocument@Base 5.0.2
+ _ZTS16QSvgTinyDocument@Base 5.0.2 1
  _ZTS19QPaintEnginePrivate@Base 5.0.2
  _ZTV10QSvgWidget@Base 5.0.2
  _ZTV12QSvgRenderer@Base 5.0.2
  _ZTV13QSvgGenerator@Base 5.0.2
  _ZTV16QGraphicsSvgItem@Base 5.0.2
- _ZTV16QSvgTinyDocument@Base 5.0.2
+ _ZTV16QSvgTinyDocument@Base 5.0.2 1
  _ZTV19QPaintEnginePrivate@Base 5.0.2
  (c++)"non-virtual thunk to QGraphicsSvgItem::boundingRect() const@Base" 5.0.2
  (c++)"non-virtual thunk to QGraphicsSvgItem::paint(QPainter*, QStyleOptionGraphicsItem const*, QWidget*)@Base" 5.0.2
