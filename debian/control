@@ -27,6 +27,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtsvg.git;a=summary
 Package: libqt5svg5
 Architecture: any
 Multi-Arch: same
+Provides: qtsvg-abi-5-3-0
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 SVG module

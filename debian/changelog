@@ -5,6 +5,8 @@ qtsvg-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   * Bump Qt build dependencies.
   * Change header's path in install files. Mark development packages as
     Multi-Arch: same.
+  * Make libqt5svg5 provide qtsvg-abi-5-3-0 to track private symbols.
+    - Modify symbols file for letting the tracking work.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 May 2014 12:14:42 -0300
 
