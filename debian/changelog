@@ -1,6 +1,5 @@
-qtsvg-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
+qtsvg-opensource-src (5.3.0-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Bump Qt build dependencies.
   * Change header's path in install files. Mark development packages as
@@ -14,7 +13,7 @@ qtsvg-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   * Do not override dh_builddeb anymore, xz compression is now the default
     method.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 May 2014 12:14:42 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 26 May 2014 13:15:53 -0300
 
 qtsvg-opensource-src (5.2.1-2) unstable; urgency=medium
 
