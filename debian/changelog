@@ -3,6 +3,7 @@ qtsvg-opensource-src (5.3.1-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Bump Qt build dependencies.
+  * Disable test until we get the transition sorted. Yes, ugly hack.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Jul 2014 10:16:04 -0300
 
