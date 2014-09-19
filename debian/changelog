@@ -1,7 +1,6 @@
 qtsvg-opensource-src (5.3.2-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
-  * Run tests again.
   * Set QT_QPA_PLATFORM=minimal when running tests, so that they
     can be run without Xvfb.
 
