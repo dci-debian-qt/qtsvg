@@ -9,6 +9,7 @@ qtsvg-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Update Vcs-Browser field to use cgit interface.
   * Update ABI version (qtsvg-abi-5-4-0).
   * Re-enable running tests during build.
+  * Add myself to Uploaders.
 
   [ Timo Jyrinki ]
   * Update libqt5svg5.symbols.
