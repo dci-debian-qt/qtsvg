@@ -7,6 +7,10 @@ qtsvg-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Update Vcs-Browser field to use cgit interface.
+  * Update ABI version (qtsvg-abi-5-4-0).
+
+  [ Timo Jyrinki ]
+  * Update libqt5svg5.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 26 Dec 2014 13:15:27 +0300
 
