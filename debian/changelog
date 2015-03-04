@@ -5,6 +5,9 @@ qtsvg-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.4.1.
   * Update watch file to qt.io
   * Mark symbols missing with GCC 5 as optional (Closes: #778094).
+  * debian/mark-private-symbols.sh:
+    - Strip trailing colon from symbols names.
+    - Unmark private symbols before processing them.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Mar 2015 07:49:07 +0000
 
