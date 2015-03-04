@@ -1,6 +1,5 @@
-qtsvg-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
+qtsvg-opensource-src (5.4.1-1) experimental; urgency=medium
 
-  [ Timo Jyrinki ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.4.1.
   * Update watch file to qt.io
@@ -9,7 +8,7 @@ qtsvg-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
     - Strip trailing colon from symbols names.
     - Unmark private symbols before processing them.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Mar 2015 07:49:07 +0000
+ -- Timo Jyrinki <timo@debian.org>  Wed, 04 Mar 2015 09:47:42 +0000
 
 qtsvg-opensource-src (5.4.0-1) experimental; urgency=medium
 
