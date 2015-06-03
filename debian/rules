@@ -45,5 +45,5 @@ override_dh_install:
 
 override_dh_makeshlibs:
 	dh_makeshlibs
-	# Check for private symbols not marked as such. Be verbose.
-	DEBUG=1 debian/mark_private_symbols.sh
+	# Check for private symbols not marked as such.
+	pkgkde-mark-private-symbols debian/libqt5svg5-private-dev/usr/include
