@@ -1,4 +1,4 @@
-qtsvg-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
+qtsvg-opensource-src (5.4.2-1) experimental; urgency=medium
 
   [ Timo Jyrinki ]
   * Update debian/copyright.
@@ -13,7 +13,7 @@ qtsvg-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
     - Remove relevant debian/copyright entry.
   * Expose HTML documentation (Closes: #751184).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Mar 2015 12:52:23 +0000
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 03 Jun 2015 18:50:10 -0300
 
 qtsvg-opensource-src (5.4.1-1) experimental; urgency=medium
 
