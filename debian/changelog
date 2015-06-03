@@ -11,6 +11,7 @@ qtsvg-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
     (and we really hope to see you back really soon!).
   * Use pkgkde-mark-private-symbols from pkg-kde-tools' 0.15.17.
     - Remove relevant debian/copyright entry.
+  * Expose HTML documentation (Closes: #751184).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 04 Mar 2015 12:52:23 +0000
 
