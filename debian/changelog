@@ -5,6 +5,7 @@ qtsvg-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.5.0.
   * Update debian/copyright.
   * Do not run tests during arch-indep builds.
+  * Remove symbols that are missing with GCC 5.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Aug 2015 18:25:17 +0300
 

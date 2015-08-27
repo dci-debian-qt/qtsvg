@@ -1,16 +1,10 @@
 # SymbolsHelper-Confirmed: 5.4.0 amd64
 libQt5Svg.so.5 libqt5svg5 #MINVER#
 | libqt5svg5 #MINVER#, qtsvg-abi-5-4-0
- (optional=gccinternal)_ZN10QSvgCircleD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN10QSvgCircleD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN10QSvgCircleD2Ev@Base 5.4.0 1
  _ZN10QSvgSwitch4drawEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN10QSvgSwitch4initEv@Base 5.4.0 1
  _ZN10QSvgSwitchC1EP8QSvgNode@Base 5.4.0 1
  _ZN10QSvgSwitchC2EP8QSvgNode@Base 5.4.0 1
- (optional=gccinternal)_ZN10QSvgSwitchD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN10QSvgSwitchD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN10QSvgSwitchD2Ev@Base 5.4.0 1
  _ZN10QSvgWidget10paintEventEP11QPaintEvent@Base 5.0.2
  _ZN10QSvgWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QSvgWidget11qt_metacastEPKc@Base 5.0.2
@@ -27,9 +21,6 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN11QSvgEllipse4drawEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN11QSvgEllipseC1EP8QSvgNodeRK6QRectF@Base 5.4.0 1
  _ZN11QSvgEllipseC2EP8QSvgNodeRK6QRectF@Base 5.4.0 1
- (optional=gccinternal)_ZN11QSvgEllipseD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN11QSvgEllipseD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN11QSvgEllipseD2Ev@Base 5.4.0 1
  _ZN11QSvgHandler10charactersERK10QStringRef@Base 5.4.0 1
  _ZN11QSvgHandler10endElementERK10QStringRef@Base 5.4.0 1
  _ZN11QSvgHandler10setInStyleEb@Base 5.4.0 1
@@ -55,15 +46,9 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN11QSvgPolygon4drawEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN11QSvgPolygonC1EP8QSvgNodeRK9QPolygonF@Base 5.4.0 1
  _ZN11QSvgPolygonC2EP8QSvgNodeRK9QPolygonF@Base 5.4.0 1
- (optional=gccinternal)_ZN11QSvgPolygonD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN11QSvgPolygonD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN11QSvgPolygonD2Ev@Base 5.4.0 1
  _ZN12QSvgPolyline4drawEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN12QSvgPolylineC1EP8QSvgNodeRK9QPolygonF@Base 5.4.0 1
  _ZN12QSvgPolylineC2EP8QSvgNodeRK9QPolygonF@Base 5.4.0 1
- (optional=gccinternal)_ZN12QSvgPolylineD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN12QSvgPolylineD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN12QSvgPolylineD2Ev@Base 5.4.0 1
  _ZN12QSvgRenderer10setViewBoxERK5QRect@Base 5.0.2
  _ZN12QSvgRenderer10setViewBoxERK6QRectF@Base 5.0.2
  _ZN12QSvgRenderer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -90,9 +75,6 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN12QSvgRendererD1Ev@Base 5.0.2
  _ZN12QSvgRendererD2Ev@Base 5.0.2
  _ZN13QSvgAnimation4drawEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
- (optional=gccinternal)_ZN13QSvgAnimationD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN13QSvgAnimationD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN13QSvgAnimationD2Ev@Base 5.4.0 1
  _ZN13QSvgFillStyle11setFillRuleEN2Qt8FillRuleE@Base 5.4.0 1
  _ZN13QSvgFillStyle12setFillStyleEP21QSvgFillStyleProperty@Base 5.4.0 1
  _ZN13QSvgFillStyle14setFillOpacityEd@Base 5.4.0 1
@@ -101,9 +83,6 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN13QSvgFillStyle8setBrushE6QBrush@Base 5.4.0 1
  _ZN13QSvgFillStyleC1Ev@Base 5.4.0 1
  _ZN13QSvgFillStyleC2Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN13QSvgFillStyleD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN13QSvgFillStyleD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN13QSvgFillStyleD2Ev@Base 5.4.0 1
  _ZN13QSvgFontStyle13SVGToQtWeightEi@Base 5.4.0 1
  _ZN13QSvgFontStyle5applyEP8QPainterPK8QSvgNodeR15QSvgExtraStates@Base 5.4.0 1
  _ZN13QSvgFontStyle6revertEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
@@ -111,9 +90,6 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN13QSvgFontStyleC1Ev@Base 5.4.0 1
  _ZN13QSvgFontStyleC2EP8QSvgFontP16QSvgTinyDocument@Base 5.4.0 1
  _ZN13QSvgFontStyleC2Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN13QSvgFontStyleD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN13QSvgFontStyleD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN13QSvgFontStyleD2Ev@Base 5.4.0 1
  _ZN13QSvgGenerator10setViewBoxERK5QRect@Base 5.0.2
  _ZN13QSvgGenerator10setViewBoxERK6QRectF@Base 5.0.2
  _ZN13QSvgGenerator11setFileNameERK7QString@Base 5.0.2
@@ -131,9 +107,6 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN15QSvgCompOpStyle6revertEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN15QSvgCompOpStyleC1EN8QPainter15CompositionModeE@Base 5.4.0 1
  _ZN15QSvgCompOpStyleC2EN8QPainter15CompositionModeE@Base 5.4.0 1
- (optional=gccinternal)_ZN15QSvgCompOpStyleD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN15QSvgCompOpStyleD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN15QSvgCompOpStyleD2Ev@Base 5.4.0 1
  _ZN15QSvgExtraStatesC1Ev@Base 5.4.0
  _ZN15QSvgExtraStatesC2Ev@Base 5.4.0
  _ZN15QSvgStrokeStyle12setDashArrayERK7QVectorIdE@Base 5.4.0 1
@@ -141,9 +114,6 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN15QSvgStrokeStyle6revertEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN15QSvgStrokeStyleC1Ev@Base 5.4.0 1
  _ZN15QSvgStrokeStyleC2Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN15QSvgStrokeStyleD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN15QSvgStrokeStyleD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN15QSvgStrokeStyleD2Ev@Base 5.4.0 1
  _ZN16QGraphicsSvgItem11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN16QGraphicsSvgItem11qt_metacastEPKc@Base 5.0.2
  _ZN16QGraphicsSvgItem12setElementIdERK7QString@Base 5.0.2
@@ -156,9 +126,6 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN16QGraphicsSvgItemC1ERK7QStringP13QGraphicsItem@Base 5.0.2
  _ZN16QGraphicsSvgItemC2EP13QGraphicsItem@Base 5.0.2
  _ZN16QGraphicsSvgItemC2ERK7QStringP13QGraphicsItem@Base 5.0.2
- (optional=gccinternal)_ZN16QGraphicsSvgItemD0Ev@Base 5.0.2
- (optional=gccinternal)_ZN16QGraphicsSvgItemD1Ev@Base 5.0.2
- (optional=gccinternal)_ZN16QGraphicsSvgItemD2Ev@Base 5.0.2
  _ZN16QSvgAnimateColor14setRepeatCountEd@Base 5.4.0 1
  _ZN16QSvgAnimateColor5applyEP8QPainterPK8QSvgNodeR15QSvgExtraStates@Base 5.4.0 1
  _ZN16QSvgAnimateColor6revertEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
@@ -166,23 +133,14 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN16QSvgAnimateColor9setFreezeEb@Base 5.4.0 1
  _ZN16QSvgAnimateColorC1Eiii@Base 5.4.0 1
  _ZN16QSvgAnimateColorC2Eiii@Base 5.4.0 1
- (optional=gccinternal)_ZN16QSvgAnimateColorD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN16QSvgAnimateColorD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN16QSvgAnimateColorD2Ev@Base 5.4.0 1
  _ZN16QSvgOpacityStyle5applyEP8QPainterPK8QSvgNodeR15QSvgExtraStates@Base 5.4.0 1
  _ZN16QSvgOpacityStyle6revertEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN16QSvgOpacityStyleC1Ed@Base 5.4.0 1
  _ZN16QSvgOpacityStyleC2Ed@Base 5.4.0 1
- (optional=gccinternal)_ZN16QSvgOpacityStyleD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN16QSvgOpacityStyleD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN16QSvgOpacityStyleD2Ev@Base 5.4.0 1
  _ZN16QSvgQualityStyle5applyEP8QPainterPK8QSvgNodeR15QSvgExtraStates@Base 5.4.0 1
  _ZN16QSvgQualityStyle6revertEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN16QSvgQualityStyleC1Ei@Base 5.4.0 1
  _ZN16QSvgQualityStyleC2Ei@Base 5.4.0 1
- (optional=gccinternal)_ZN16QSvgQualityStyleD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN16QSvgQualityStyleD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN16QSvgQualityStyleD2Ev@Base 5.4.0 1
  _ZN16QSvgTinyDocument10addSvgFontEP8QSvgFont@Base 5.0.2 1
  _ZN16QSvgTinyDocument10setViewBoxERK6QRectF@Base 5.0.2 1
  _ZN16QSvgTinyDocument11setAnimatedEb@Base 5.0.2 1
@@ -225,14 +183,8 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN18QSvgTransformStyle6revertEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN18QSvgTransformStyleC1ERK10QTransform@Base 5.4.0 1
  _ZN18QSvgTransformStyleC2ERK10QTransform@Base 5.4.0 1
- (optional=gccinternal)_ZN18QSvgTransformStyleD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN18QSvgTransformStyleD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN18QSvgTransformStyleD2Ev@Base 5.4.0 1
  _ZN19QSvgSolidColorStyleC1ERK6QColor@Base 5.4.0 1
  _ZN19QSvgSolidColorStyleC2ERK6QColor@Base 5.4.0 1
- (optional=gccinternal)_ZN19QSvgSolidColorStyleD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN19QSvgSolidColorStyleD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN19QSvgSolidColorStyleD2Ev@Base 5.4.0 1
  _ZN20QSvgAnimateTransform13resolveMatrixEPK8QSvgNode@Base 5.4.0 1
  _ZN20QSvgAnimateTransform14setRepeatCountEd@Base 5.4.0 1
  _ZN20QSvgAnimateTransform5applyEP8QPainterPK8QSvgNodeR15QSvgExtraStates@Base 5.4.0 1
@@ -241,50 +193,29 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN20QSvgAnimateTransform9setFreezeEb@Base 5.4.0 1
  _ZN20QSvgAnimateTransformC1Eiii@Base 5.4.0 1
  _ZN20QSvgAnimateTransformC2Eiii@Base 5.4.0 1
- (optional=gccinternal)_ZN20QSvgAnimateTransformD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN20QSvgAnimateTransformD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN20QSvgAnimateTransformD2Ev@Base 5.4.0 1
  _ZN21QSvgFillStyleProperty5applyEP8QPainterPK8QSvgNodeR15QSvgExtraStates@Base 5.4.0 1
  _ZN21QSvgFillStyleProperty6revertEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN21QSvgViewportFillStyle5applyEP8QPainterPK8QSvgNodeR15QSvgExtraStates@Base 5.4.0 1
  _ZN21QSvgViewportFillStyle6revertEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN21QSvgViewportFillStyleC1ERK6QBrush@Base 5.4.0 1
  _ZN21QSvgViewportFillStyleC2ERK6QBrush@Base 5.4.0 1
- (optional=gccinternal)_ZN21QSvgViewportFillStyleD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN21QSvgViewportFillStyleD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN21QSvgViewportFillStyleD2Ev@Base 5.4.0 1
  _ZN5QSvgG4drawEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN5QSvgGC1EP8QSvgNode@Base 5.4.0 1
  _ZN5QSvgGC2EP8QSvgNode@Base 5.4.0 1
- (optional=gccinternal)_ZN5QSvgGD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN5QSvgGD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN5QSvgGD2Ev@Base 5.4.0 1
  _ZN7QSvgArc4drawEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN7QSvgArcC1EP8QSvgNodeRK12QPainterPath@Base 5.4.0 1
  _ZN7QSvgArcC2EP8QSvgNodeRK12QPainterPath@Base 5.4.0 1
- (optional=gccinternal)_ZN7QSvgArcD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN7QSvgArcD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN7QSvgArcD2Ev@Base 5.4.0 1
  _ZN8QSvgDefs4drawEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN8QSvgDefsC1EP8QSvgNode@Base 5.4.0 1
  _ZN8QSvgDefsC2EP8QSvgNode@Base 5.4.0 1
- (optional=gccinternal)_ZN8QSvgDefsD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN8QSvgDefsD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN8QSvgDefsD2Ev@Base 5.4.0 1
  _ZN8QSvgFont13setFamilyNameERK7QString@Base 5.4.0 1
  _ZN8QSvgFont13setUnitsPerEmEd@Base 5.4.0 1
  _ZN8QSvgFont8addGlyphE5QCharRK12QPainterPathd@Base 5.4.0 1
  _ZN8QSvgFontC1Ed@Base 5.4.0 1
  _ZN8QSvgFontC2Ed@Base 5.4.0 1
- (optional=gccinternal)_ZN8QSvgFontD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN8QSvgFontD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN8QSvgFontD2Ev@Base 5.4.0 1
  _ZN8QSvgLine4drawEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN8QSvgLineC1EP8QSvgNodeRK6QLineF@Base 5.4.0 1
  _ZN8QSvgLineC2EP8QSvgNodeRK6QLineF@Base 5.4.0 1
- (optional=gccinternal)_ZN8QSvgLineD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN8QSvgLineD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN8QSvgLineD2Ev@Base 5.4.0 1
  _ZN8QSvgNode10setVisibleEb@Base 5.4.0 1
  _ZN8QSvgNode11setXmlClassERK7QString@Base 5.4.0 1
  _ZN8QSvgNode11strokeWidthEP8QPainter@Base 5.4.0 1
@@ -304,15 +235,9 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN8QSvgPath4drawEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN8QSvgPathC1EP8QSvgNodeRK12QPainterPath@Base 5.4.0 1
  _ZN8QSvgPathC2EP8QSvgNodeRK12QPainterPath@Base 5.4.0 1
- (optional=gccinternal)_ZN8QSvgPathD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN8QSvgPathD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN8QSvgPathD2Ev@Base 5.4.0 1
  _ZN8QSvgRect4drawEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN8QSvgRectC1EP8QSvgNodeRK6QRectFii@Base 5.4.0 1
  _ZN8QSvgRectC2EP8QSvgNodeRK6QRectFii@Base 5.4.0 1
- (optional=gccinternal)_ZN8QSvgRectD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN8QSvgRectD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN8QSvgRectD2Ev@Base 5.4.0 1
  _ZN8QSvgText11setTextAreaERK6QSizeF@Base 5.4.0 1
  _ZN8QSvgText4drawEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN8QSvgText7addTextERK7QString@Base 5.4.0 1
@@ -327,9 +252,6 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZN9QSvgImage4drawEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN9QSvgImageC1EP8QSvgNodeRK6QImageRK5QRect@Base 5.4.0 1
  _ZN9QSvgImageC2EP8QSvgNodeRK6QImageRK5QRect@Base 5.4.0 1
- (optional=gccinternal)_ZN9QSvgImageD0Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN9QSvgImageD1Ev@Base 5.4.0 1
- (optional=gccinternal)_ZN9QSvgImageD2Ev@Base 5.4.0 1
  _ZN9QSvgStyle5applyEP8QPainterPK8QSvgNodeR15QSvgExtraStates@Base 5.4.0 1
  _ZN9QSvgStyle6revertEP8QPainterR15QSvgExtraStates@Base 5.4.0 1
  _ZN9QSvgStyleD1Ev@Base 5.4.0 1
@@ -524,7 +446,6 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZTV13QSvgFillStyle@Base 5.4.0 1
  _ZTV13QSvgFontStyle@Base 5.4.0 1
  _ZTV13QSvgGenerator@Base 5.0.2
- _ZTV14QSvgRefCounted@Base 5.4.0 1
  _ZTV15QSvgCompOpStyle@Base 5.4.0 1
  _ZTV15QSvgStrokeStyle@Base 5.4.0 1
  _ZTV16QGraphicsSvgItem@Base 5.0.2
@@ -555,5 +476,4 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  (c++)"non-virtual thunk to QGraphicsSvgItem::boundingRect() const@Base" 5.0.2
  (c++)"non-virtual thunk to QGraphicsSvgItem::paint(QPainter*, QStyleOptionGraphicsItem const*, QWidget*)@Base" 5.0.2
  (c++)"non-virtual thunk to QGraphicsSvgItem::type() const@Base" 5.0.2
- (optional=gccinternal)(c++)"non-virtual thunk to QGraphicsSvgItem::~QGraphicsSvgItem()@Base" 5.0.2
  (c++)"non-virtual thunk to QSvgWidget::~QSvgWidget()@Base" 5.0.2
