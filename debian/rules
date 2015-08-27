@@ -19,8 +19,10 @@ override_dh_auto_configure:
 override_dh_auto_build-indep:
 	dh_auto_build -Smakefile -- docs
 
-override_dh_auto_test:
+override_dh_auto_test-arch:
 	dh_auto_test -- QT_QPA_PLATFORM=minimal QT_PLUGIN_PATH=$(CURDIR)/plugins
+
+override_dh_auto_test-indep:
 
 override_dh_auto_install-arch:
 	dh_auto_install
