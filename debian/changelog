@@ -1,5 +1,8 @@
 qtsvg-opensource-src (5.4.2-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Remove symbols that are missing with GCC 5 (to fix a build
+    failure).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Aug 2015 20:11:22 +0300
 
