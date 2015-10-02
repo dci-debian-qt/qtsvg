@@ -55,26 +55,6 @@ Description: Qt 5 SVG module development files
  This package contains the header development files used for building Qt 5
  applications using QtSvg library.
 
-Package: libqt5svg5-private-dev
-Architecture: any
-Multi-Arch: same
-Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~)
-Depends: libqt5svg5-dev (= ${binary:Version}), ${misc:Depends}
-Description: Qt 5 SVG module private development files
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- The QtSvg module provides classes for displaying the contents of SVG files.
- .
- Scalable Vector Graphics (SVG) is a language for describing two-dimensional
- graphics and graphical applications in XML.
- .
- This package contains the private header development files for building some
- Qt 5 applications using SVG private headers.
- .
- Use at your own risk.
-
 Package: qtsvg5-examples
 Architecture: any
 Section: x11
