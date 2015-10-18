@@ -39,9 +39,13 @@ override_dh_auto_install-arch:
 	# Remove libtool-like files
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
-	# Remove private stuff.
-	rm -rfv usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtSvg/*/QtSvg/private/
-	rm -fv usr/lib/$(DEB_HOST_MULTIARCH)/qt5/mkspecs/modules/qt_lib_svg_private.pri
+	# Move private headers out of debian/tmp
+	mkdir -p debian/private-headers
+	mv -v debian/tmp/usr/include/$(DEB_HOST_MULTIARCH)/qt5/QtSvg/*/QtSvg/private \
+		debian/private-headers/QtSvg
+
+	# Remove other private stuff
+	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/mkspecs/modules/qt_lib_svg_private.pri
 
 override_dh_auto_install-indep:
 	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
@@ -52,4 +56,8 @@ override_dh_install:
 override_dh_makeshlibs:
 	dh_makeshlibs
 	# Check for private symbols not marked as such.
-	pkgkde-mark-private-symbols debian/libqt5svg5-private-dev/usr/include
+	pkgkde-mark-private-symbols debian/private-headers
+
+override_dh_clean:
+	dh_clean
+	rm -rfv debian/private-headers
