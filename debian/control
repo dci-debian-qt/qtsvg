@@ -11,7 +11,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
 Build-Depends: dbus,
                debhelper (>= 9),
                libqt5opengl5-dev (>= 5.5.1+dfsg~),
-               pkg-kde-tools (>= 0.15.17),
+               pkg-kde-tools,
                qtbase5-private-dev (>= 5.5.1+dfsg~),
                zlib1g-dev
 Build-Depends-Indep: libqt5sql5-sqlite (>= 5.5.1+dfsg~),
