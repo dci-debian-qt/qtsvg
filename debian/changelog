@@ -1,4 +1,4 @@
-qtsvg-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
+qtsvg-opensource-src (5.6.0~beta-1) experimental; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream beta release.
@@ -16,7 +16,7 @@ qtsvg-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * Use secure protocol (https) for Vcs-* fields.
   * Bump Standards-Version to 3.9.7, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Feb 2016 09:53:23 -0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 20 Feb 2016 21:53:40 +0300
 
 qtsvg-opensource-src (5.5.1-2) unstable; urgency=medium
 
