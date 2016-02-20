@@ -13,6 +13,7 @@ qtsvg-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * Update symbols files using migrate-symbols script and from the build log.
   * Bump qtsvg-abi version to 5-6-0.
   * Override symbols-declares-dependency-on-other-package Lintian warning.
+  * Use secure protocol (https) for Vcs-* fields.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Feb 2016 09:53:23 -0300
 
