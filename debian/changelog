@@ -4,6 +4,11 @@ qtsvg-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * New upstream beta release.
     - Bump Qt build dependencies.
 
+  [ Dmitry Shachnev ]
+  * Stop running pkgkde-mark-qt5-private-symbols script during build. The new
+    way is that the maintainers run it themselves after each symbols update.
+    Also drop the associated hack to move the private headers from debian/tmp.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Feb 2016 09:53:23 -0300
 
 qtsvg-opensource-src (5.5.1-2) unstable; urgency=medium
