@@ -1,3 +1,30 @@
+qtsvg-opensource-src (5.6.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.6.0.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 26 Mar 2016 22:50:24 +0100
+
+qtsvg-opensource-src (5.6.0~beta-1) experimental; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream beta release.
+    - Bump Qt build dependencies.
+
+  [ Dmitry Shachnev ]
+  * Stop running pkgkde-mark-qt5-private-symbols script during build. The new
+    way is that the maintainers run it themselves after each symbols update.
+    Also drop the associated hack to move the private headers from debian/tmp.
+  * Add fix_install_path.diff from Fedora to fix installation path for example
+    SVG files.
+  * Update symbols files using migrate-symbols script and from the build log.
+  * Bump qtsvg-abi version to 5-6-0.
+  * Override symbols-declares-dependency-on-other-package Lintian warning.
+  * Use secure protocol (https) for Vcs-* fields.
+  * Bump Standards-Version to 3.9.7, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 20 Feb 2016 21:53:40 +0300
+
 qtsvg-opensource-src (5.5.1-2) unstable; urgency=medium
 
   * Upload to unstable.
