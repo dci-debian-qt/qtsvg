@@ -4,6 +4,9 @@ qtsvg-opensource-src (5.6.1-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Bump Qt build dependencies.
   * Update Standards-Version to 3.9.8, no changes required.
+  * Add qtbase5-dev to build dependencies. It is currently pulled in by
+    qtbase5-private-dev, but having it listed means that this package
+    will not transition before qtbase itself.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jun 2016 10:52:52 -0300
 
