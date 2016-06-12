@@ -1,6 +1,5 @@
-qtsvg-opensource-src (5.6.1-1) UNRELEASED; urgency=medium
+qtsvg-opensource-src (5.6.1-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt build dependencies.
   * Update Standards-Version to 3.9.8, no changes required.
@@ -9,7 +8,7 @@ qtsvg-opensource-src (5.6.1-1) UNRELEASED; urgency=medium
     will not transition before qtbase itself.
   * Remove fix_install_path.diff, it is already applied upstream.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jun 2016 10:52:52 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 12 Jun 2016 11:03:18 -0300
 
 qtsvg-opensource-src (5.6.0-1) experimental; urgency=medium
 
