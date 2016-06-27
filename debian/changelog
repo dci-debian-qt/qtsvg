@@ -1,3 +1,21 @@
+qtsvg-opensource-src (5.6.1-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 13 Jun 2016 11:15:41 -0300
+
+qtsvg-opensource-src (5.6.1-1) experimental; urgency=medium
+
+  * New upstream release.
+    - Bump Qt build dependencies.
+  * Update Standards-Version to 3.9.8, no changes required.
+  * Add qtbase5-dev to build dependencies. It is currently pulled in by
+    qtbase5-private-dev, but having it listed means that this package
+    will not transition before qtbase itself.
+  * Remove fix_install_path.diff, it is already applied upstream.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 12 Jun 2016 11:03:18 -0300
+
 qtsvg-opensource-src (5.6.0-1) experimental; urgency=medium
 
   * New upstream release.
