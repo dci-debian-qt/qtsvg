@@ -6,6 +6,7 @@ qtsvg-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   * Replace disable_qicon_test.diff patch with (forwarded) fix_qicon_diff,
     which fixes the test instead of disabling it.
   * Update debian/copyright.
+  * Add Qt_5.7 version tag to debian/libqt5svg5.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Jul 2016 15:12:20 +0300
 
