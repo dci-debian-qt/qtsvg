@@ -1,0 +1,21 @@
+Description: add correct library path for qicon_svg test
+Author: Dmitry Shachnev <mitya57@debian.org>
+Forwarded: https://codereview.qt-project.org/164761
+Last-Update: 2016-07-09
+
+--- a/tests/auto/qicon_svg/qicon_svg.pro
++++ b/tests/auto/qicon_svg/qicon_svg.pro
+@@ -1,12 +1,11 @@
+ CONFIG += testcase
+ TARGET = tst_qicon_svg
+ 
+-QT += testlib gui-private
++QT += svg testlib gui-private
+ SOURCES += tst_qicon_svg.cpp
+ RESOURCES = tst_qicon_svg.qrc
+ 
+ wince* {
+-   QT += svg
+    DEPLOYMENT_PLUGIN += qsvg
+ }
+ TESTDATA += icons/*
