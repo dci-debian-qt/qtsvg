@@ -3,6 +3,7 @@ qtsvg-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream snapshot.
     - Bump Qt build dependencies.
+  * Remove fix_qicon_test.diff, it's already present upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 26 Oct 2016 17:47:49 -0300
 
