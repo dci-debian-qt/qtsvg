@@ -1,8 +1,27 @@
-qtsvg-opensource-src (5.7.0-0neon) xenial; urgency=medium
+qtsvg-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
-  * New release
+  * Upload to unstable.
 
- -- Neon CI <neon@kde.org>  Mon, 27 Jun 2016 15:05:22 +0200
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 01 Nov 2016 15:10:10 +0300
+
+qtsvg-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
+
+  * New upstream snapshot.
+    - Bump Qt build dependencies.
+  * Remove fix_qicon_test.diff, it's already present upstream.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 26 Oct 2016 17:54:16 -0300
+
+qtsvg-opensource-src (5.7.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.7.0.
+  * Replace disable_qicon_test.diff patch with (forwarded) fix_qicon_diff,
+    which fixes the test instead of disabling it.
+  * Update debian/copyright.
+  * Add Qt_5.7 version tag to debian/libqt5svg5.symbols.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 09 Jul 2016 20:24:03 +0300
 
 qtsvg-opensource-src (5.6.1-2) unstable; urgency=medium
 
