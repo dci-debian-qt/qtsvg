@@ -1,12 +1,11 @@
-qtsvg-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
+qtsvg-opensource-src (5.9.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.0.
   * Update debian/libqt5svg5.symbols.
   * Drop unused Lintian override about ABI package dependency.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 08 Jun 2017 21:12:40 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 08 Jun 2017 21:49:57 +0300
 
 qtsvg-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
