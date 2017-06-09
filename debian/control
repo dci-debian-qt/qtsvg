@@ -9,7 +9,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
 Build-Depends: dbus,
-               debhelper (>= 9),
+               debhelper (>= 9.20160114~),
                libqt5opengl5-dev (>= 5.9.0+dfsg~),
                pkg-kde-tools (>= 0.15.17),
                qtbase5-dev (>= 5.9.0+dfsg~),
@@ -67,20 +67,6 @@ Description: Qt 5 SVG examples
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt 5 SVG examples.
-
-Package: qtsvg5-dbg
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Section: debug
-Depends: libqt5svg5 (= ${binary:Version}), ${misc:Depends}
-Suggests: qtsvg5-examples (= ${binary:Version})
-Description: Qt 5 SVG library debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 SVG
- libraries.
 
 Package: qtsvg5-doc
 Priority: extra
