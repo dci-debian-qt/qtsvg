@@ -1,8 +1,8 @@
-qtsvg-opensource-src (5.7.1-0neon) UNRELEASED; urgency=medium
+qtsvg-opensource-src (5.9.0-0neon) UNRELEASED; urgency=medium
 
-  * neon build
+  * New release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Jan 2017 14:36:54 +0000
+ -- Jonathan Riddell <jr@jriddell.org>  Mon, 05 Jun 2017 15:27:00 +0100
 
 qtsvg-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
