@@ -1,8 +1,19 @@
-qtsvg-opensource-src (5.9.0-0neon) UNRELEASED; urgency=medium
+qtsvg-opensource-src (5.9.0-2) UNRELEASED; urgency=medium
 
-  * New release
+  [ Dmitry Shachnev ]
+  * Migrate to automatic dbgsym packages.
+  * Add support for nodoc build profile.
 
- -- Jonathan Riddell <jr@jriddell.org>  Mon, 05 Jun 2017 15:27:00 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Jun 2017 18:42:00 +0300
+
+qtsvg-opensource-src (5.9.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.9.0.
+  * Update debian/libqt5svg5.symbols.
+  * Drop unused Lintian override about ABI package dependency.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 08 Jun 2017 21:49:57 +0300
 
 qtsvg-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
