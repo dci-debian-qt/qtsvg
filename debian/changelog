@@ -1,12 +1,11 @@
-qtsvg-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
+qtsvg-opensource-src (5.9.1-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream bugfix release.
   * Migrate to automatic dbgsym packages.
   * Add support for nodoc build profile.
   * Bump qtbase build-dependencies to 5.9.1.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Jun 2017 18:42:00 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 01 Jul 2017 16:09:17 +0300
 
 qtsvg-opensource-src (5.9.0-1) experimental; urgency=medium
 
