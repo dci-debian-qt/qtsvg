@@ -11,13 +11,13 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
 Build-Depends: dbus,
                debhelper (>= 9.20160114~),
                dpkg-dev (>= 1.17.14),
-               libqt5opengl5-dev (>= 5.9.0+dfsg~),
+               libqt5opengl5-dev (>= 5.9.1+dfsg~),
                pkg-kde-tools (>= 0.15.17),
-               qtbase5-dev (>= 5.9.0+dfsg~),
-               qtbase5-private-dev (>= 5.9.0+dfsg~),
+               qtbase5-dev (>= 5.9.1+dfsg~),
+               qtbase5-private-dev (>= 5.9.1+dfsg~),
                zlib1g-dev
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.0+dfsg~) <!nodoc>,
-                     qtbase5-doc-html (>= 5.9.0+dfsg~) <!nodoc>,
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.1+dfsg~) <!nodoc>,
+                     qtbase5-doc-html (>= 5.9.1+dfsg~) <!nodoc>,
                      qttools5-dev-tools (>= 5.9.0~) <!nodoc>
 Standards-Version: 3.9.8
 Homepage: http://qt-project.org/
