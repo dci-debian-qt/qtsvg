@@ -3,6 +3,7 @@ qtsvg-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream bugfix release.
   * Bump Qt build-dependencies to 5.9.2.
+  * Use debhelper compat level 10 and dh_missing.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 20 Oct 2017 16:03:05 +0300
 
