@@ -1,5 +1,9 @@
 qtsvg-opensource-src (5.9.2-3) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Do not call qmake directly anymore.
+    Require debhelper >= 10.9.2~ (Closes: #880930).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 Nov 2017 16:50:56 -0300
 
 qtsvg-opensource-src (5.9.2-2) unstable; urgency=medium
