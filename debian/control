@@ -9,17 +9,17 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
 Build-Depends: dbus,
-               debhelper (>= 9.20160114~),
+               debhelper (>= 10.3),
                dpkg-dev (>= 1.17.14),
-               libqt5opengl5-dev (>= 5.9.1+dfsg~),
+               libqt5opengl5-dev (>= 5.9.2+dfsg~),
                pkg-kde-tools (>= 0.15.17),
-               qtbase5-dev (>= 5.9.1+dfsg~),
-               qtbase5-private-dev (>= 5.9.1+dfsg~),
+               qtbase5-dev (>= 5.9.2+dfsg~),
+               qtbase5-private-dev (>= 5.9.2+dfsg~),
                zlib1g-dev
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.1+dfsg~) <!nodoc>,
-                     qtbase5-doc-html (>= 5.9.1+dfsg~) <!nodoc>,
-                     qttools5-dev-tools (>= 5.9.0~) <!nodoc>
-Standards-Version: 3.9.8
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.2+dfsg~) <!nodoc>,
+                     qtbase5-doc-html (>= 5.9.2+dfsg~) <!nodoc>,
+                     qttools5-dev-tools (>= 5.9.2~) <!nodoc>
+Standards-Version: 4.1.1
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtsvg.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtsvg.git
@@ -71,7 +71,6 @@ Description: Qt 5 SVG examples
 
 Package: qtsvg5-doc
 Build-Profiles: <!nodoc>
-Priority: extra
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
@@ -83,7 +82,6 @@ Description: Qt 5 SVG documentation
 
 Package: qtsvg5-doc-html
 Build-Profiles: <!nodoc>
-Priority: extra
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
