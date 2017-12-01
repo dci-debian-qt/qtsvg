@@ -13,10 +13,16 @@ qtsvg-opensource-src (5.9.2-2) unstable; urgency=medium
 
 qtsvg-opensource-src (5.9.2-1) experimental; urgency=medium
 
+<<<<<<<
   * New upstream bugfix release.
   * Bump Qt build-dependencies to 5.9.2.
   * Use debhelper compat level 10 and dh_missing.
   * Bump Standards-Version to 4.1.1, stop using deprecated Priority: extra.
+=======
+  [ Dmitry Shachnev ]
+  * New upstream bugfix release.
+  * Bump Qt build-dependencies to 5.9.2.
+>>>>>>>
 
  -- Dmitry Shachnev <mitya57@debian.org>  Fri, 20 Oct 2017 16:11:30 +0300
 
