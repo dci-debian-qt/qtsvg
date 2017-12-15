@@ -1,6 +1,5 @@
-qtsvg-opensource-src (5.10.0-1) UNRELEASED; urgency=medium
+qtsvg-opensource-src (5.10.0-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/watch for the new upstream tarball names.
   * Bump Qt build-dependencies to 5.10.0.
@@ -8,7 +7,7 @@ qtsvg-opensource-src (5.10.0-1) UNRELEASED; urgency=medium
   * Update debian/libqt5svg5.symbols with two new symbols.
   * Bump Standards-Version to 4.1.2, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Dec 2017 11:06:11 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 15 Dec 2017 11:59:43 +0300
 
 qtsvg-opensource-src (5.9.2-3) unstable; urgency=medium
 
