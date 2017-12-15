@@ -1,9 +1,9 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qtsvg-opensource-src
 Source: https://download.qt.io/official_releases/qt/*/submodules/
 
 Files: *
-Copyright: 2015-2016 The Qt Company Ltd.
+Copyright: 2016 The Qt Company Ltd.
 License: LGPL-3 or GPL-2
 
 Files: debian/*
@@ -13,7 +13,7 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
            2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
-           2013-2016 Dmitry Shachnev <mitya57@debian.org>
+           2013-2017 Dmitry Shachnev <mitya57@debian.org>
 License: LGPL-3 or GPL-2
 
 Files: src/svg/qtsvgglobal.h
@@ -21,22 +21,22 @@ Copyright: 2016 Intel Corporation
 License: LGPL-3 or GPL-2
 
 Files: *.qdoc
-Copyright: 2015 The Qt Company Ltd.
+Copyright: 2017 The Qt Company Ltd.
 License: GFDL-NIV-1.3
 
 Files: examples/*
        src/svg/doc/snippets/*
-Copyright: 2015 The Qt Company Ltd.
+Copyright: 2016-2017 The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: examples/svg/embedded/fluidlauncher/pictureflow.*
 Copyright: 2007 Ariya Hidayat <ariya@kde.org>
-           2015 The Qt Company Ltd.
-License: BSD-3-clause
+           2017 The Qt Company Ltd.
+License: BSD-3-clause and Expat
 
 Files: src/svg/qsvghandler.cpp
 Copyright: 2002 USC/Information Sciences Institute
-           2015 The Qt Company Ltd.
+           2016 The Qt Company Ltd.
 License: LGPL-3 or GPL-2, and MIT-ISI
 
 Files: tests/*
@@ -44,13 +44,10 @@ Copyright: 2016 The Qt Company Ltd.
 License: GPL-3 with Qt-1.0 exception
 
 License: GFDL-NIV-1.3
- GNU Free Documentation License Usage
- Alternatively, this file may be used under the terms of the GNU Free
- Documentation License version 1.3 as published by the Free Software
- Foundation and appearing in the file included in the packaging of
- this file.  Please review the following information to ensure
- the GNU Free Documentation License version 1.3 requirements
- will be met: http://www.gnu.org/copyleft/fdl.html.
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.3
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
  .
  On Debian systems, the complete text of the GNU Free Documentation
  License version 1.3 can be found in /usr/share/common-licenses/GFDL-1.3.
@@ -164,3 +161,22 @@ License: LGPL-3
  .
  On Debian systems, the complete text of the GNU Lesser General Public
  License version 3 can be found in /usr/share/common-licenses/LGPL-3.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
