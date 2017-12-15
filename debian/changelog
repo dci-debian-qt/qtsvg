@@ -1,3 +1,10 @@
+qtsvg-opensource-src (5.10.0-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Dec 2017 11:06:11 +0300
+
 qtsvg-opensource-src (5.9.2-3) unstable; urgency=medium
 
   * Do not call qmake directly anymore.
