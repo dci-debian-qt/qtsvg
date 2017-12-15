@@ -2,6 +2,7 @@ qtsvg-opensource-src (5.10.0-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Update debian/watch for the new upstream tarball names.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 15 Dec 2017 11:06:11 +0300
 
