@@ -1,3 +1,14 @@
+qtsvg-opensource-src (5.10.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update debian/watch for the new upstream tarball names.
+  * Bump Qt build-dependencies to 5.10.0.
+  * Update debian/copyright.
+  * Update debian/libqt5svg5.symbols with two new symbols.
+  * Bump Standards-Version to 4.1.2, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 15 Dec 2017 11:59:43 +0300
+
 qtsvg-opensource-src (5.10.0~beta2-0neon) UNRELEASED; urgency=medium
 
   * 5.10
@@ -10,6 +21,13 @@ qtsvg-opensource-src (5.9.3-0neon) UNRELEASED; urgency=medium
   * new release
 
  -- Jonathan Riddell <jr@jriddell.org>  Wed, 22 Nov 2017 17:23:10 +0000
+
+qtsvg-opensource-src (5.9.2-3) unstable; urgency=medium
+
+  * Do not call qmake directly anymore.
+    Require debhelper >= 10.9.2~ (Closes: #880930).
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 03 Dec 2017 13:13:59 -0300
 
 qtsvg-opensource-src (5.9.2-2) unstable; urgency=medium
 
