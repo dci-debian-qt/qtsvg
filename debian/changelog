@@ -4,6 +4,31 @@ qtsvg-opensource-src (5.10.0~beta2-0neon) UNRELEASED; urgency=medium
 
  -- Jonathan Riddell <jr@jriddell.org>  Wed, 13 Sep 2017 13:18:31 +0100
 
+qtsvg-opensource-src (5.9.3-0neon) UNRELEASED; urgency=medium
+
+  * New release
+  * new release
+
+ -- Jonathan Riddell <jr@jriddell.org>  Wed, 22 Nov 2017 17:23:10 +0000
+
+qtsvg-opensource-src (5.9.2-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 26 Oct 2017 16:49:09 +0300
+
+qtsvg-opensource-src (5.9.2-1) experimental; urgency=medium
+
+  * New upstream bugfix release.
+  * Bump Qt build-dependencies to 5.9.2.
+  * Use debhelper compat level 10 and dh_missing.
+  * Bump Standards-Version to 4.1.1, stop using deprecated Priority: extra.
+  [ Dmitry Shachnev ]
+  * New upstream bugfix release.
+  * Bump Qt build-dependencies to 5.9.2.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 20 Oct 2017 16:11:30 +0300
+
 qtsvg-opensource-src (5.9.1-2) unstable; urgency=medium
 
   * Release to unstable.
