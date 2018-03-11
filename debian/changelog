@@ -1,3 +1,10 @@
+qtsvg-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
+
+  [ Simon Quigley ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 Mar 2018 00:49:13 -0600
+
 qtsvg-opensource-src (5.10.0-1) experimental; urgency=medium
 
   * New upstream release.
