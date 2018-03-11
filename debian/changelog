@@ -6,6 +6,7 @@ qtsvg-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * Bump Standards-version to 4.1.3, no changes needed.
   * Bump build dependencies to Qt 5.10.1.
   * Update Vcs-* to reflect the move to Salsa.
+  * Add my name to Uploaders.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 Mar 2018 00:49:13 -0600
 
