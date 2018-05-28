@@ -1,3 +1,14 @@
+qtsvg-opensource-src (5.10.1-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump debhelper compat to 11, no changes needed.
+  * Bump Standards-version to 4.1.3, no changes needed.
+  * Bump build dependencies to Qt 5.10.1.
+  * Update Vcs-* to reflect the move to Salsa.
+  * Add my name to Uploaders.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 11 Mar 2018 01:19:57 -0600
+
 qtsvg-opensource-src (5.10.0-1) experimental; urgency=medium
 
   * New upstream release.
