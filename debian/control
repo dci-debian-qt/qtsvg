@@ -10,7 +10,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Dmitry Shachnev <mitya57@debian.org>,
            Simon Quigley <tsimonq2@ubuntu.com>
 Build-Depends: dbus,
-               debhelper (>= 11~),
+               debhelper (>= 11),
                dpkg-dev (>= 1.17.14),
                libqt5opengl5-dev (>= 5.10.1+dfsg~),
                pkg-kde-tools (>= 0.15.17),
