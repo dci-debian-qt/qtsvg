@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.10.0 amd64
+# SymbolsHelper-Confirmed: 5.11.1 amd64 armhf ia64 mips64el riscv64 sparc64
 libQt5Svg.so.5 libqt5svg5 #MINVER#
 | libqt5svg5 #MINVER#, qtsvg-abi-5-6-0
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -331,6 +331,7 @@ libQt5Svg.so.5 libqt5svg5 #MINVER#
  _ZNK16QSvgTinyDocument13elementExistsERK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK16QSvgTinyDocument15boundsOnElementERK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK16QSvgTinyDocument16matrixForElementERK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (optional=inline|arch=armhf ia64 mips64el riscv64 sparc64)_ZNK16QSvgTinyDocument4sizeEv@Qt_5_PRIVATE_API 5.11.1 1
  _ZNK16QSvgTinyDocument4typeEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK16QSvgTinyDocument7svgFontERK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK16QSvgTinyDocument8animatedEv@Qt_5_PRIVATE_API 5.6.0~beta 1
